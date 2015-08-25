@@ -32,10 +32,10 @@ public class Card {
 			case 13: rank= "King";
 		}
 		switch(this.suit){
-			case 1: suit= "Spades";
-			case 2: suit= "Hearts";
-			case 3: suit= "Clubs";
-			case 4: suit= "Diamonds";
+			case 1: suit= "Clubs";
+			case 2: suit= "Diamonds";
+			case 3: suit= "Hearts";
+			case 4: suit= "Spades";
 		}
 		return rank+" of "+suit;
 	}
