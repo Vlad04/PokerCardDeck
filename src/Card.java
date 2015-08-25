@@ -3,7 +3,7 @@ public class Card {
 	private short rank,
 				  suit;
 	
-	public Card(){
+	public Card(int cardNumber, int suits){
 		this.rank = 1;
 		this.suit = 1;
 	}
