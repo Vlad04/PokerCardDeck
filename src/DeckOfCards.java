@@ -7,8 +7,8 @@ public class DeckOfCards implements DeckOfCardsInterface {
 	public DeckOfCards(){
 		this.deck=new Card[52];
 		int num=0;
-		for(int j=0;j<4;j++){
-			for(int i=0;i<13;i++){
+		for(short j=0;j<4;j++){
+			for(short i=0;i<13;i++){
 				this.deck[num]=new Card(i,j);		//falta el hacer el constructor de la carta para aceptar los argumentos
 				num++;
 			}
